@@ -11,10 +11,10 @@ class TestCase(unittest.TestCase):
         self.assertEqual(example.sub(3, 1), 2)
 
     def test_mul(self):
-        self.assertEqual(example.sub(3, 4), 12)
+        self.assertEqual(example.mul(3, 4), 12)
 
     def test_div(self):
-        self.assertEqual(example.sub(6, 3), 2)
+        self.assertEqual(example.div(6, 3), 2)
 
 
 if __name__ == '__main__':
